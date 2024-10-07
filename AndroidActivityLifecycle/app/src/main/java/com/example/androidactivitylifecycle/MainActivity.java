@@ -55,4 +55,15 @@ public class MainActivity extends AppCompatActivity {
     private void updateCounterDisplay() {
         counterTextView.setText("Thread Counter: " + threadCounter);
     }
+
+    public void onTriggerDialog (View view) {
+        new AlertDialog.Builder(this)
+                .setTitle("Dialog")
+                .setMessage("This is a Simple dialog")
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                })
+                .show();
+    }
 }
