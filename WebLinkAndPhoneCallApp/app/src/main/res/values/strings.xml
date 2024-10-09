@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebLinkAndPhoneCallApp</string>
+    <string name="mact_lbl_url">URL :</string>
+    <string name="mact_lbl_phone">Phone :</string>
+    <string name="mact_btn_launch">Launch</string>
+    <string name="mact_btn_ring">Ring</string>
+    <string name="mact_btn_close">Close App</string>
+    <string name="mact_hint_phone">(XXX) XXX - XXXX</string>
+    <string name="mact_hint_url">https://www.sjsu.edu</string>
+</resources>
