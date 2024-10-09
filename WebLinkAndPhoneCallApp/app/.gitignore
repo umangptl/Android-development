@@ -1,0 +1,25 @@
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Ignore Gradle binary files
+*.jar
+*.war
+*.ear
+
+# Ignore Android Studio specific files
+.idea/
+*.iml
+*.hprof
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+app/build/
+captures/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
