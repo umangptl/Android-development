@@ -2,6 +2,7 @@
 **/.gradle/
 **/build/
 local.properties
+**/local.properties
 /**/.gradle.bat
 
 # Ignore Gradle binary files
@@ -30,14 +31,14 @@ local.properties
 !gradle/wrapper/gradle-wrapper.properties
 !gradle/wrapper/gradle-wrapper.jar
 
-# IDE specific files
+# IDE-specific files
 **/.project
 **/.classpath
-
-# MacOS specific files
-# Already covered by **/.DS_Store
 
 # Temporary files
 **/*.tmp
 **/*.swp
 **/*.swo
+
+
+**/*.cxx
