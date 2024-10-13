@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF Download Activity"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Prompt Text -->
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_provide_list_of_five_sjsu_pdfs_to_download"
+        app:layout_constraintTop_toBottomOf="@id/title_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- PDF1 TextView -->
+    <TextView
+        android:id="@+id/pdf1_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF1 File Location:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/instruction_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- PDF1 EditText -->
+    <EditText
+        android:id="@+id/pdf1_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="PDF1 File Location"
+        android:text="https://www.sjsu.edu/map/docs/campus-map.pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pdf1_label"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <!-- PDF2 TextView -->
+    <TextView
+        android:id="@+id/pdf2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF2 File Location:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pdf1_input"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- PDF2 EditText -->
+    <EditText
+        android:id="@+id/pdf2_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="PDF2 File Location"
+        android:text="https://www.cisco.com/web/about/ac79/docs/innov/IoE_Economy.pdf"
+        app:layout_constraintTop_toBottomOf="@id/pdf2_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- PDF3 TextView -->
+    <TextView
+        android:id="@+id/pdf3_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF3 File Location:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pdf2_input"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- PDF3 EditText -->
+    <EditText
+        android:id="@+id/pdf3_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="PDF3 File Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pdf3_label"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <!-- PDF4 TextView -->
+    <TextView
+        android:id="@+id/pdf4_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF4 File Location:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pdf3_input"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- PDF4 EditText -->
+    <EditText
+        android:id="@+id/pdf4_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="PDF4 File Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pdf4_label"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- PDF5 TextView -->
+    <TextView
+        android:id="@+id/pdf5_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF5 File Location:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pdf4_input"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- PDF5 EditText -->
+    <EditText
+        android:id="@+id/pdf5_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="PDF5 File Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pdf5_label"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Download Button -->
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download PDFs"
+        android:onClick="startDownloadService"
+        app:layout_constraintTop_toBottomOf="@id/pdf5_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

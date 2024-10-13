@@ -1,0 +1,4 @@
+<resources>
+    <string name="ServicesApp">ServicesApp</string>
+    <string name="please_provide_list_of_five_sjsu_pdfs_to_download">Please provide list of five SJSU PDFs to download</string>
+</resources>
