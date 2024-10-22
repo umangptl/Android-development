@@ -73,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
         } else {
             showToast(INVALID_PHONE_MESSAGE);
         }
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse(phoneNumber));
+        startActivity(implicit);
     }
 
     private void startDialerActivity(String phoneNumber) {
