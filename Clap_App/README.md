@@ -20,7 +20,7 @@ How to Use
 - Visual Feedback: The app will display real-time proximity values and change the emoji to clapping when a clap is detected (proximity value of 0).
 
 
-<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/Main.png" width="25%" alt="Main-Page">
+<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/main.png" width="25%" alt="Main-Page">
 <img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity0.png" width="25%" alt="proximity">
 <img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity3.4.png" width="25%" alt="proximity">
 <img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity10.png" width="25%" alt="proximity">
