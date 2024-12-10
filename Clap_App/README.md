@@ -21,6 +21,9 @@ How to Use
 
 
 <img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/main.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity0.png" width="25%" alt="proximity">
-<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity3.4.png" width="25%" alt="proximity">
-<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity10.png" width="25%" alt="proximity">
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+	<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity0.png" width="25%" alt="proximity">
+	<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity3.4.png" width="25%" alt="proximity">
+	<img src="https://github.com/umangptl/Android-development/blob/main/Clap_App/Images/proximity10.png" width="25%" alt="proximity">
+</div>
