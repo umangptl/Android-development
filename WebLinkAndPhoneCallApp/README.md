@@ -6,7 +6,8 @@ Features
 - Make a Call: Users can input a phone number and call directly from the app.
 - Permission Handling: The app requests permission to make phone calls.
 
-
-<img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/Main.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/Phone.png" width="25%" alt="phone-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/URL.png" width="25%" alt="URL-Page">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+  <img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/Main.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/Phone.png" width="25%" alt="phone-Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/WebLinkAndPhoneCallApp/Images/URL.png" width="25%" alt="URL-Page">
+</div>
