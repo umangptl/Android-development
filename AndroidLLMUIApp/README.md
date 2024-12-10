@@ -16,9 +16,10 @@ Usage
 - The response will appear in the response box, formatted and scrollable for easy reading.
 - If needed, cancel the operation using the Cancel button.
 
-
-<img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Main.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Gemini-hi.png" width="25%" alt="Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Gemini-id.png" width="25%" alt="Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Groq-hi.png" width="25%" alt="Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Groq-id.png" width="25%" alt="Page">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+  <img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Main.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Gemini-hi.png" width="25%" alt="Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Gemini-id.png" width="25%" alt="Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Groq-hi.png" width="25%" alt="Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/AndroidLLMUIApp/Images/Groq-id.png" width="25%" alt="Page">
+</div>
