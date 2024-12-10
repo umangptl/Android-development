@@ -13,7 +13,8 @@ The PDFs will be saved to the device’s Downloads folder.
 Permissions
 The app requires access to the internet and external storage to download and save files.
 
-
-<img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Main.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Links.png" width="25%" alt="phone-Page">
-<img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Downloads.png" width="25%" alt="URL-Page">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+  <img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Main.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Links.png" width="25%" alt="phone-Page">
+  <img src="https://github.com/umangptl/Android-development/blob/main/ServicesApp/Images/Downloads.png" width="25%" alt="URL-Page">
+</div>
